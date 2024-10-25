@@ -275,3 +275,101 @@ p {
     font-weight: 200;
     font-style: Extra Light;
 }
+
+.gradientContainer {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.gradientContainer div {
+    position: absolute;
+    border-radius: 40%;
+}
+.gradientContainer div:nth-child(1) {
+    height: 50%;
+    width: 55%;
+    background-color: black;
+    left: -10%;
+    top: -10%;
+}
+.gradientContainer div:nth-child(2) {
+    height: 50%;
+    width: 60%;
+    background-color: #030315;
+    top: -20%;
+    right: 20%;
+}
+.gradientContainer div:nth-child(3) {
+    height: 45%;
+    width: 45%;
+    background-color: #04041f;
+    top: -10%;
+    right: -12%;
+}
+
+.gradientContainer div:nth-child(4) {
+    height: 66%;
+    width: 60%;
+    background-color: black;
+    left: -16%;
+    top: 30%;
+}
+.gradientContainer div:nth-child(5) {
+    height: 55%;
+    width: 50%;
+    background-color: #05052a;
+    top: 29%;
+    left: 42%;
+}
+.gradientContainer div:nth-child(6) {
+    height: 48%;
+    width: 40%;
+    background-color: #08083e;
+    top: 31%;
+    right: -12%;
+}
+
+.gradientContainer div:nth-child(7) {
+    height: 46%;
+    width: 43%;
+    background-color: black;
+    left: -12%;
+    bottom: -16%;
+}
+
+.gradientContainer div:nth-child(8) {
+    height: 38%;
+    width: 63%;
+    background-color: #05052a;
+    left: 29%;
+    bottom: -12%;
+}
+.gradientContainer div:nth-child(9) {
+    height: 48%;
+    width: 40%;
+    background-color: #08083e;
+    left: 59%;
+    bottom: -12%;
+}
+
+.gradientContainer div:nth-child(10) {
+    height: 37%;
+    width: 43%;
+    background-color: #0b017d;
+    bottom: -15%;
+    right: -20%;
+}
+.gradientContainer:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(80px);
+}
