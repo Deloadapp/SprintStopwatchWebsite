@@ -15,7 +15,7 @@
     --logo-as-link-width: 4.8rem;
     --logo-as-link-pb: 1.1rem;
     --text: 1.3rem;
-    --text-fw: 300;
+    --text-fw: 400;
 }
 
 @media (max-width: /*722*/450px) {
@@ -80,10 +80,18 @@ body {
     .logoStyle {
         content: url("assets/images/applogo/SprintStopwatch_AppIcon_V2.2_Dark_RoundedCorners.png");
     }
+
+    h4 {
+        font-weight: 300;
+    }
 }
 @media (prefers-color-scheme: light) {
     .logoStyle {
         content: url("assets/images/applogo/SprintStopwatch_AppIcon_V2.2_Blue_RoundedCorners.png");
+    }
+
+    h4 {
+        font-weight: 400;
     }
 }
 
@@ -189,7 +197,7 @@ body {
     text-decoration: none;
     padding-right: 20px;
     font-size: var(--fs-footer);
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .link-as-logo {
@@ -224,7 +232,6 @@ h4 {
     font-size: var(--fs-400);
     margin-top: var(--textpadding);
     margin-bottom: var(--textpadding);
-    font-weight: 300;
 }
 
 p {
@@ -295,21 +302,18 @@ p {
 .gradientContainer div:nth-child(1) {
     height: 50%;
     width: 55%;
-    background-color: black;
     left: -10%;
     top: -10%;
 }
 .gradientContainer div:nth-child(2) {
     height: 50%;
     width: 60%;
-    background-color: #030315;
     top: -20%;
     right: 20%;
 }
 .gradientContainer div:nth-child(3) {
     height: 45%;
     width: 45%;
-    background-color: #04041f;
     top: -10%;
     right: -12%;
 }
@@ -317,21 +321,18 @@ p {
 .gradientContainer div:nth-child(4) {
     height: 66%;
     width: 60%;
-    background-color: black;
     left: -16%;
     top: 30%;
 }
 .gradientContainer div:nth-child(5) {
     height: 55%;
     width: 50%;
-    background-color: #05052a;
     top: 29%;
     left: 42%;
 }
 .gradientContainer div:nth-child(6) {
     height: 48%;
     width: 40%;
-    background-color: #08083e;
     top: 31%;
     right: -12%;
 }
@@ -339,7 +340,6 @@ p {
 .gradientContainer div:nth-child(7) {
     height: 46%;
     width: 43%;
-    background-color: black;
     left: -12%;
     bottom: -16%;
 }
@@ -347,14 +347,12 @@ p {
 .gradientContainer div:nth-child(8) {
     height: 38%;
     width: 63%;
-    background-color: #05052a;
     left: 29%;
     bottom: -12%;
 }
 .gradientContainer div:nth-child(9) {
     height: 48%;
     width: 40%;
-    background-color: #08083e;
     left: 59%;
     bottom: -12%;
 }
@@ -362,7 +360,6 @@ p {
 .gradientContainer div:nth-child(10) {
     height: 37%;
     width: 43%;
-    background-color: #0b017d;
     bottom: -15%;
     right: -20%;
 }
@@ -372,4 +369,70 @@ p {
     height: 100%;
     width: 100%;
     backdrop-filter: blur(80px);
+}
+
+@media (prefers-color-scheme: light) {
+    .gradientContainer div:nth-child(1) {
+        background-color: white;
+    }
+    .gradientContainer div:nth-child(2) {
+        background-color: #cdccfe;
+    }
+    .gradientContainer div:nth-child(3) {
+        background-color: #b7b5fe;
+    }
+    .gradientContainer div:nth-child(4) {
+        background-color: #e7e6fe;
+    }
+    .gradientContainer div:nth-child(5) {
+        background-color: #bbbbfd;
+    }
+    .gradientContainer div:nth-child(6) {
+        background-color: #579fec;
+    }
+    .gradientContainer div:nth-child(7) {
+        background-color: #ddddfa;
+    }
+    .gradientContainer div:nth-child(8) {
+        background-color: #bbbbfd;
+    }
+    .gradientContainer div:nth-child(9) {
+        background-color: #a5a5fc;
+    }
+    .gradientContainer div:nth-child(10) {
+        background-color: #218bff; /*499dfc*/
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .gradientContainer div:nth-child(1) {
+        background-color: black;
+    }
+    .gradientContainer div:nth-child(2) {
+        background-color: #030315;
+    }
+    .gradientContainer div:nth-child(3) {
+        background-color: #04041f;
+    }
+    .gradientContainer div:nth-child(4) {
+        background-color: black;
+    }
+    .gradientContainer div:nth-child(5) {
+        background-color: #05052a;
+    }
+    .gradientContainer div:nth-child(6) {
+        background-color: #08083e;
+    }
+    .gradientContainer div:nth-child(7) {
+        background-color: black;
+    }
+    .gradientContainer div:nth-child(8) {
+        background-color: #05052a;
+    }
+    .gradientContainer div:nth-child(9) {
+        background-color: #08083e;
+    }
+    .gradientContainer div:nth-child(10) {
+        background-color: #0b017d;
+    }
 }
