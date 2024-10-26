@@ -181,6 +181,15 @@ body {
     -webkit-transform: translateZ(0);
 }
 
+.videoShape::-webkit-media-controls {
+    display: none !important;
+}
+
+@supports (-webkit-appearance: none) {
+    .videoShape {
+        display: block;
+    }
+}
 .logoStyle {
     padding-top: var(--fs-400);
     padding-bottom: var(--textpadding);
