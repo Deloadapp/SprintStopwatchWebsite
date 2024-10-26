@@ -317,6 +317,8 @@ p {
     z-index: -1;
     backface-visibility: hidden; /* Helps reduce lag in Safari */
     -webkit-backface-visibility: hidden;
+    will-change: transform;
+    transform: translateZ(0);
 }
 .gradientContainer div {
     position: absolute;
