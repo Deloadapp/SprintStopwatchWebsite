@@ -36,7 +36,7 @@
         --logo-as-link-width: 3.8rem;
         --logo-as-link-pb: 0.7rem;
         --text: 0.95rem;
-        ---text-fw: 400;
+        --text-fw: 400;
     }
 }
 @media (max-width: /*722*/380px) {
@@ -57,6 +57,7 @@
         --logo-as-link-width: 3.4rem;
         --logo-as-link-pb: 0.5rem;
         --text: 0.9rem;
+        --text-fw: 400;
     }
 }
 
@@ -84,6 +85,12 @@ body {
     h4 {
         font-weight: 300;
     }
+
+    .videoShape {
+        background: transparent
+            url("SprintStopwatchWebsite/assets/images/videoThumbnail/StrintStopwatchPosterDark.png")
+            no-repeat 0 0;
+    }
 }
 @media (prefers-color-scheme: light) {
     .logoStyle {
@@ -92,6 +99,12 @@ body {
 
     h4 {
         font-weight: 400;
+    }
+
+    .videoShape {
+        background: transparent
+            url("SprintStopwatchWebsite/assets/images/videoThumbnail/StrintStopwatchPosterLight.png")
+            no-repeat 0 0;
     }
 }
 
@@ -161,12 +174,14 @@ body {
 }
 
 .videoShape {
-    background: blue;
-
-    /* width: var(--videowidth);*/
     border-radius: 7%;
     overflow: hidden;
     -webkit-transform: translateZ(0);
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .logoStyle {
