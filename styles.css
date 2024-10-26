@@ -87,8 +87,7 @@ body {
     }
 
     .videoShape {
-        background: transparent
-            url("SprintStopwatchWebsite/assets/images/videoThumbnail/StrintStopwatchPosterDark.png")
+        background: url("SprintStopwatchWebsite/assets/images/videoThumbnail/StrintStopwatchPosterDark.png")
             no-repeat 0 0;
     }
 }
@@ -102,8 +101,7 @@ body {
     }
 
     .videoShape {
-        background: transparent
-            url("SprintStopwatchWebsite/assets/images/videoThumbnail/StrintStopwatchPosterLight.png")
+        background: url("SprintStopwatchWebsite/assets/images/videoThumbnail/StrintStopwatchPosterLight.png")
             no-repeat 0 0;
     }
 }
