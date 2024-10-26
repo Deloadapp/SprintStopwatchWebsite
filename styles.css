@@ -315,12 +315,12 @@ p {
     box-sizing: border-box;
     overflow: hidden;
     z-index: -1;
+    backface-visibility: hidden; /* Helps reduce lag in Safari */
+    -webkit-backface-visibility: hidden;
 }
 .gradientContainer div {
     position: absolute;
     border-radius: 40%;
-    will-change: transform;
-    transition: transform 0.1s ease-out;
 }
 .gradientContainer div:nth-child(1) {
     height: 50%;
