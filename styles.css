@@ -86,10 +86,10 @@ body {
         font-weight: 300;
     }
 
-    .videoShape {
+    /* .img-on-video video {
         background: url("assets/images/videoThumbnail/StrintStopwatchPosterDark.png")
             no-repeat 0 0;
-    }
+    }*/
 }
 @media (prefers-color-scheme: light) {
     .logoStyle {
@@ -100,10 +100,10 @@ body {
         font-weight: 400;
     }
 
-    .videoShape {
+    /*.img-on-video video {
         background: url("assets/images/videoThumbnail/StrintStopwatchPosterLight.png")
             no-repeat 0 0;
-    }
+    }*/
 }
 
 .container {
@@ -157,6 +157,10 @@ body {
     width: var(--videowidth);
     object-fit: cover;
     transform: translate(-50%, -50%);
+    /*  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
 }
 
 .img-on-video img {
@@ -175,11 +179,6 @@ body {
     border-radius: 7%;
     overflow: hidden;
     -webkit-transform: translateZ(0);
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 .logoStyle {
