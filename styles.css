@@ -319,6 +319,8 @@ p {
 .gradientContainer div {
     position: absolute;
     border-radius: 40%;
+    will-change: transform;
+    transition: transform 0.1s ease-out;
 }
 .gradientContainer div:nth-child(1) {
     height: 50%;
