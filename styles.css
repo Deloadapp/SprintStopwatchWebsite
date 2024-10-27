@@ -78,12 +78,12 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-image: url("assets/images/backgroundGradient/GradientLight.png");
+    background-image: url("assets/images/backgroundGradient/GradientWithFilterLight.png");
 }
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-image: url("assets/images/backgroundGradient/GradientDark.png");
+        background-image: url("assets/images/backgroundGradient/GradientWithFilterDark.png");
         /*background: black;*/
         color: white;
     }
