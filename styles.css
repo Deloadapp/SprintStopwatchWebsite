@@ -255,6 +255,13 @@ h4 {
     margin-bottom: var(--textpadding);
 }
 
+h5 {
+    margin-top: var(--vpt);
+    margin-bottom: 0rem;
+    font-size: var(--text);
+    font-weight: 600;
+}
+
 p {
     /* width: 90%;*/
     font-weight: var(--text-fw);
@@ -265,6 +272,13 @@ p {
     line-height: 1.5;
     max-width: 800px;
     box-sizing: border-box;
+}
+ul {
+    margin-block-start: 0.6rem;
+}
+li {
+    font-weight: var(--text-fw);
+    font-size: var(--text);
 }
 @font-face {
     font-family: "Inter";
