@@ -72,9 +72,18 @@ body {
     height: 100vh;
 }
 
+body {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url("assets/images/backgroundGradient/GradientLight.png");
+}
+
 @media (prefers-color-scheme: dark) {
     body {
-        background: black;
+        background-image: url("assets/images/backgroundGradient/GradientDark.png");
+        /*background: black;*/
         color: white;
     }
 
