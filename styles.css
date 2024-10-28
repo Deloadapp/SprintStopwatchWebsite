@@ -35,7 +35,7 @@
         --videowidth: 13.805rem;
         --logo-as-link-width: 3.8rem;
         --logo-as-link-pb: 0.7rem;
-        --text: 0.95rem;
+        --text: 1.05rem;
         --text-fw: 400;
     }
 }
@@ -56,7 +56,7 @@
         --videowidth: 12.55rem;
         --logo-as-link-width: 3.4rem;
         --logo-as-link-pb: 0.5rem;
-        --text: 0.9rem;
+        --text: 1rem;
         --text-fw: 400;
     }
 }
