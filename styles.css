@@ -96,6 +96,9 @@ body {
         font-weight: 300;
     }
 
+    p {
+        font-weight: var(--text-fw);
+    }
     /* .img-on-video video {
         background: url("assets/images/videoThumbnail/StrintStopwatchPosterDark.png")
             no-repeat 0 0;
